@@ -1,0 +1,11 @@
+{
+    "name": "TestApp",
+
+    "requires": [
+    ],
+
+    "id": "7bfaa246-a003-40dd-9d31-0dde105ade6f",
+    
+    "css"       : [
+    ]
+}

@@ -1,0 +1,68 @@
+.icon-task {
+    background : transparent url(images/LeftNavTaskIcon.gif) no-repeat left center;
+}
+
+.loading {
+    background : url(images/loading2.gif) no-repeat center 4px;
+}
+
+.user .x-grid-cell-inner {
+    padding-left : 45px !important;
+    background   : url(images/unknown.gif) no-repeat left top;
+    line-height  : 30px;
+}
+
+#selectedTime {
+    color        : #1C417C;
+    font-weight  : bold !important;
+    padding-left : 5px;
+}
+
+/* 
+    -----------------------------------
+    Styling of the event tooltip 
+    -----------------------------------
+*/
+
+.sch-tip .sch-clockwrap {
+    left        : 4px;
+    font-weight : bold;
+}
+
+.eventTip {
+    padding : 5px;
+}
+
+.eventTip dd {
+    margin-bottom : 17px;
+    padding-left  : 28px;
+}
+
+.eventTip dd:last-child {
+    margin-bottom : 0px !important;
+}
+
+.eventTip dt {
+    padding-left : 26px;
+    font-weight  : bold;
+    height       : 20px;
+}
+
+/* Event style */
+.sch-schedulerpanel .sch-event {
+    border-radius         : 12px;
+    box-shadow            : 1px 1px 3px rgba(150, 150, 150, 0.3);
+    background            : url('images/bg.png') repeat-x;
+    border-color          : #999A9C;
+    border-style          : solid;
+    color                 : #1C417C;
+    cursor                : pointer;
+    text-align            : center;
+}
+
+div.sch-event-hover {
+    border-color : #333;
+}
+
+
+
